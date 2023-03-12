@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63026b2d-1114-447e-8bb2-026b70bf53de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Application/Scripts/Utils/Audio/SoundInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Application/Scripts/GameEntryPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Application/Scripts/Level/LevelUpscaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Application/Scripts/Level/DisplayCurrentLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Application/Scripts/Settings/SetupAudio.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Application/LocationGenerator/FieldGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/LocationGenerator/FieldGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/LocationGenerator/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/LocationGenerator/GenerateField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/FieldButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/LocationGenerator/Field.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Utils/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/UI/Lifebar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/GameEntryPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Level/DisplayCurrentLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Level/LevelUpscaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Field/Field.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Field/FieldButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Utils/Scenes/LoadSceneButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Utils/Audio/SoundInvoker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Application/Scripts/Settings/SetupAudio.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MRykCA9Rw0bled5R7SfVGY71tl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63026b2d-1114-447e-8bb2-026b70bf53de" name="Default Changelist" comment="" />
+      <created>1677744833937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677744833937</updated>
+      <workItem from="1677744840752" duration="993000" />
+      <workItem from="1677746989309" duration="2951000" />
+      <workItem from="1677755279261" duration="3520000" />
+      <workItem from="1677828932853" duration="3152000" />
+      <workItem from="1678476481339" duration="1635000" />
+      <workItem from="1678518492119" duration="12456000" />
+      <workItem from="1678564693516" duration="2565000" />
+      <workItem from="1678600483420" duration="4160000" />
+      <workItem from="1678610610677" duration="2150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1678562121717">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="431" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1536.912@0.0.1536.912" timestamp="1678562121717" />
+  </component>
+</project>
