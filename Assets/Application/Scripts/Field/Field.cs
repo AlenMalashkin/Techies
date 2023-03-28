@@ -1,20 +1,42 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
+using VavilichevGD.Utils.Timing;
+using YG;
+using Random = UnityEngine.Random;
 
 public class Field : MonoBehaviour
 {
     [SerializeField] private FieldButton buttonPrefab;
+    [SerializeField] private float secondsToSetMinesInvisible = 3;
 
     private Lifebar _lifebar;
     private LevelUpscaler _levelUpscaler;
+    private SyncedTimer _timer;
     
     private int _currentCol = 0;
     private FieldButton[,] _buttons;
 
-    private void Start() 
+    private void OnEnable()
     {
         _levelUpscaler = new LevelUpscaler();
+        
+        _timer = new SyncedTimer(TimerType.UpdateTick);
 
+        _timer.TimerFinished += TurnOffMines;
+    }
+
+    private void OnDisable()
+    {
+        
+        _timer.TimerFinished -= TurnOffMines;
+    }
+
+    private void Start()
+    {
         GenerateNewField();
+        
+        TurnOnMines();
     }
 
     public void Init(Lifebar lifebar)
@@ -64,6 +86,30 @@ public class Field : MonoBehaviour
             for (int j = 0; j < _levelUpscaler.MineCount; j++)
             {
                 _buttons[Random.Range(0, _levelUpscaler.RowCount), i].IsMined = true;
+            }
+        }
+    }
+
+    private void TurnOnMines()
+    {
+        _timer.Start(secondsToSetMinesInvisible);
+                   
+        for (int i = 0; i < _levelUpscaler.RowCount; i++)
+        {
+            for (int j = 0; j < _levelUpscaler.ColCount; j++)
+            {
+                _buttons[i, j].SetMineVisible();
+            }
+        } 
+    }
+
+    private void TurnOffMines()
+    {
+        for (int i = 0; i < _levelUpscaler.RowCount; i++)
+        {
+            for (int j = 0; j < _levelUpscaler.ColCount; j++)
+            {
+                _buttons[i, j].SetMineInvisible();
             }
         }
     }

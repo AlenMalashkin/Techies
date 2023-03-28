@@ -237,5 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c6ddc5a13232d4ea59fc8e9b12dce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 3014176879744800834}
-  soundEffectSource: {fileID: 3014176879744800845}
+  musicClip: {fileID: 8300000, guid: 2c8f197ee5c1d2a4eab17e17ff1d776b, type: 3}
+  _musicSource: {fileID: 3014176879744800845}
+  _soundEffectSource: {fileID: 3014176879744800834}

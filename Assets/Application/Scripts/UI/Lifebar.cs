@@ -45,7 +45,6 @@ public class Lifebar : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("You are died");
         SceneLoader.Instance.ReloadCurrentScene();
     }
 }

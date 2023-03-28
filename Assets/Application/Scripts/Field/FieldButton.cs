@@ -1,11 +1,15 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class FieldButton : MonoBehaviour
 {
-    [SerializeField] private Button _button;
-    public Button Button => _button;
+    [SerializeField] private Button button;
+    [SerializeField] private AudioClip explosionClip;
+
+    [SerializeField] private Sprite noobSprite;
+    [SerializeField] private Sprite tntSprite;
+
+    public Button Button => button;
     public bool IsMined = false;
 
     private Field _field;
@@ -17,36 +21,40 @@ public class FieldButton : MonoBehaviour
         _lifebar = lifebar;
     }
 
-    private void Start()
-    {
-        if (IsMined)
-        {
-            //_button.image.color = Color.red; 
-        }
-    }
-
     private void OnEnable()
     {
-        _button.onClick.AddListener(OnButtonClick);
+        button.onClick.AddListener(OnButtonClick);
     }
 
     private void OnDisable()
     {
-        _button.onClick.RemoveListener(OnButtonClick);
+        button.onClick.RemoveListener(OnButtonClick);
     }
 
     private void OnButtonClick()
     {
         if (!IsMined)
         {
-            _button.image.color = Color.green;
+            button.image.sprite = noobSprite;
             _field.UpdateFieldButtons();
         }
         else
         {
-            Debug.Log("You are hit the TNT");
-            _button.image.color = Color.red;
+            button.image.sprite = tntSprite;
             _lifebar.TakeDamage(1);
+        }
+    }
+
+    public void SetMineInvisible()
+    {
+        button.image.color = Color.white;
+    }
+
+    public void SetMineVisible()
+    {
+        if (IsMined)
+        {
+            button.image.color = Color.red;
         }
     }
 }

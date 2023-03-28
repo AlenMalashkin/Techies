@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Egor\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Egor\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Techies.-13224708.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Egor\Techies" t="IncludeRecursive">
+    <e p="C:\Users\gor28\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\gor28\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Techies.-2009060165.00" t="ExcludeRecursive" />
+    <e p="C:\Users\gor28\Techies" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Application" t="Include">
@@ -17,21 +18,77 @@
               <e p="DisplayCurrentLevel.cs" t="Include" />
               <e p="LevelUpscaler.cs" t="Include" />
             </e>
-            <e p="Settings" t="Include">
-              <e p="SetupAudio.cs" t="Include" />
-            </e>
             <e p="UI" t="Include">
               <e p="Lifebar.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
-              <e p="Audio" t="Include">
-                <e p="SoundInvoker.cs" t="Include" />
-              </e>
               <e p="Scenes" t="Include">
                 <e p="LoadSceneButton.cs" t="Include" />
                 <e p="SceneLoader.cs" t="Include" />
               </e>
+              <e p="SyncedTimer" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="SyncedTimer.cs" t="Include" />
+                  <e p="TimeChangingSource.cs" t="Include" />
+                  <e p="TimeInvoker.cs" t="Include" />
+                  <e p="TimerType.cs" t="Include" />
+                </e>
+              </e>
             </e>
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="RemoveMobileSupportWarningWebBuild.cs" t="Include" />
+        </e>
+        <e p="YandexGame" t="Include">
+          <e p="Addons" t="Include">
+            <e p="Auto Localization" t="Include">
+              <e p="JsonDotNet" t="Include">
+                <e p="link.xml" t="Include" />
+              </e>
+            </e>
+            <e p="UnityToolbag-main" t="Include">
+              <e p="ConditionallyVisiblePropertyDrawer" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ConditionallyVisiblePropertyDrawer.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="ConditionallyVisibleAttribute.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Example" t="Include">
+            <e p="DebugViewing" t="Include">
+              <e p="DebugViewing.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CheaterMessage.cs" t="Include" />
+              <e p="DestroyObj.cs" t="Include" />
+              <e p="GetPlayerData.cs" t="Include" />
+              <e p="LanguageExample.cs" t="Include" />
+              <e p="LogInStartMassage.cs" t="Include" />
+              <e p="NewResultLeaderboard.cs" t="Include" />
+              <e p="OpenAuthorizationDialog.cs" t="Include" />
+              <e p="RewardedAd.cs" t="Include" />
+              <e p="SaverTest.cs" t="Include" />
+              <e p="SwitchSceneTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ScriptsYG" t="Include">
+            <e p="Editor" t="Include">
+              <e p="CreateYandexGameEditor.cs" t="Include" />
+              <e p="FontMasseInstallEditorWindow.cs" t="Include" />
+              <e p="LanguageYGEditor.cs" t="Include" />
+              <e p="LanguageYGEditorWindow.cs" t="Include" />
+            </e>
+            <e p="GraphicSettingsYG.cs" t="Include" />
+            <e p="ImageLoadYG.cs" t="Include" />
+            <e p="InfoYG.cs" t="Include" />
+            <e p="LanguageYG.cs" t="Include" />
+            <e p="LeaderboardYG.cs" t="Include" />
+            <e p="ViewingAds.cs" t="Include" />
+            <e p="YandexGame.cs" t="Include" />
           </e>
         </e>
       </e>

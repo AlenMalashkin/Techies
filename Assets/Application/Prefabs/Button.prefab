@@ -133,4 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f27ee63533c524895de6ace817564b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 2090460257266948519}
+  button: {fileID: 2090460257266948519}
+  explosionClip: {fileID: 8300000, guid: f90d23ccbcee7194b9e837b16630a16a, type: 3}
+  noobSprite: {fileID: 21300000, guid: 023fd5950c6bc15479350fe6ab641236, type: 3}
+  tntSprite: {fileID: 21300000, guid: dadd6641b454e084f8331c502052b1be, type: 3}
+  IsMined: 0
